@@ -10,14 +10,14 @@
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-      <nav className="bg-white shadow-lg">_
+      <nav className="bg-white shadow-lg">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center flex-shrink-0">
               <Link href="/" className="flex items-center">
                 <Image src={Logo} alt="Logo" width={40} height={40} className="mr-2" />
                 <span className="px-3 py-1 text-xl font-bold text-black rounded bg-gradient-to-r from-blue-400 to-blue-600">
-                Learn Scape__
+                Learn Scape
                 </span>
               </Link>
             </div>
