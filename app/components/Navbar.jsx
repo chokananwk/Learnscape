@@ -10,14 +10,14 @@
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-      <nav className="bg-white shadow-lg">
+      <nav className="bg-white shadow-lg">_
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center flex-shrink-0">
               <Link href="/" className="flex items-center">
                 <Image src={Logo} alt="Logo" width={40} height={40} className="mr-2" />
                 <span className="px-3 py-1 text-xl font-bold text-black rounded bg-gradient-to-r from-blue-400 to-blue-600">
-                Learn Scape
+                Learn Scape__
                 </span>
               </Link>
             </div>
@@ -34,7 +34,7 @@
               <Link href="/collection" className="inline-flex items-center px-1 pt-1 text-gray-500 border-b-2 border-transparent hover:border-blue-500 hover:text-gray-900">
                 collection
               </Link>
-              <Link href="/Sign in" className="inline-flex items-center px-1 pt-1 text-gray-500 border-b-2 border-transparent hover:border-blue-500 hover:text-gray-900">
+              <Link href="/Signin" className="inline-flex items-center px-1 pt-1 text-gray-500 border-b-2 border-transparent hover:border-blue-500 hover:text-gray-900">
                 Sign in
               </Link>
             </div>
@@ -73,7 +73,7 @@
               <Link href="/Collection" className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
                 Collection
               </Link>
-              <Link href="/Sign in" className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
+              <Link href="/Signin" className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
                 Sign in
               </Link>
             </div>
