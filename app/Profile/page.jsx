@@ -8,9 +8,10 @@ export default function Profile() {
   const [isEditing, setIsEditing] = useState(false);
   const [newBio, setNewBio] = useState('');
   const [profileImage, setProfileImage] = useState('/api/placeholder/128/128');
-
+  
   // Mock data for posts
   const posts = [
+
     { id: 1, image: '/api/placeholder/300/300' },
     { id: 2, image: '/api/placeholder/300/300' },
     { id: 3, image: '/api/placeholder/300/300' },// Add more mock posts as needed
