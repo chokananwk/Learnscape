@@ -36,6 +36,7 @@ export default function SignUpPage() {
     setEmail('');
     setPassword('');
     setConfirmPassword('');
+    
   };
 
   return (

@@ -1,10 +1,12 @@
 "use client"  
 
 import { useState } from 'react';  
+import { useRouter } from 'next/navigation';  
 import Link from 'next/link';  
 
 export default function SignInPage() {  
-  // ใช้ useState เพื่อจัดการกับค่า email และ password  
+  // ใช้ useState เพื่อจัดการกับค่า email และ password
+  const router = useRouter();    
   const [email, setEmail] = useState('');  
   const [password, setPassword] = useState('');  
 
@@ -18,6 +20,8 @@ export default function SignInPage() {
     
     setEmail('');
     setPassword('');
+    
+    router.push('/');  
   };  
 
   return (  
