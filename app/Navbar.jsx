@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../public/Logo.png';
+import Logo from './public/Logo.png';
 
 
 export default function Navbar() {
@@ -32,8 +32,8 @@ export default function Navbar() {
             <Link href="/Event" className="inline-flex items-center px-1 pt-1 text-gray-500 border-b-2 border-transparent hover:border-blue-500 hover:text-gray-900">
               Event
             </Link>
-            <Link href="/collection" className="inline-flex items-center px-1 pt-1 text-gray-500 border-b-2 border-transparent hover:border-blue-500 hover:text-gray-900">
-              collection
+            <Link href="collections" className="inline-flex items-center px-1 pt-1 text-gray-500 border-b-2 border-transparent hover:border-blue-500 hover:text-gray-900">
+              collections
             </Link>
             <Link href="/Signin" className="inline-flex items-center px-1 pt-1 text-gray-500 border-b-2 border-transparent hover:border-blue-500 hover:text-gray-900">
               Sign in
@@ -71,8 +71,8 @@ export default function Navbar() {
             <Link href="/Event" className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
               Event
             </Link>
-            <Link href="/Collection" className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
-              Collection
+            <Link href = "collections" className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
+              collections
             </Link>
             <Link href="/Signin" className="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
               Sign in
