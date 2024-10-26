@@ -130,7 +130,7 @@ const Footer = () => (
   <footer className="py-8 text-white bg-blue-600">
     <div className="container mx-auto text-center">
       <h2 className="mb-4 text-3xl font-semibold">Ready to Get Started?</h2>
-      <Link href="/Sign in" className="px-6 py-3 text-xl font-semibold text-blue-600 transition duration-300 bg-white rounded-full hover:bg-blue-100">
+      <Link href="/Signup" className="px-6 py-3 text-xl font-semibold text-blue-600 transition duration-300 bg-white rounded-full hover:bg-blue-100">
         Sign Up Now
       </Link>
     </div>

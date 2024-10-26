@@ -1,5 +1,6 @@
 import './globals.css'  
 import Navbar from './Navbar'
+import FloatingMapButton from './icon-map'
 
 export const metadata = {  
   title: 'Leanscape',  
@@ -12,6 +13,8 @@ export default function RootLayout({ children }) {
       <body>  
         <Navbar />  
         <main>{children}</main>  
+        <FloatingMapButton />
+
       </body>  
     </html>  
   )  
